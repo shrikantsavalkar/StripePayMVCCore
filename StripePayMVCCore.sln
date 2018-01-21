@@ -12,6 +12,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "StripePayMVCCore", "src\StripePayMVCCore\StripePayMVCCore.xproj", "{101164CE-885F-45A0-A26C-3D0D3777BF18}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{3B9C6457-4A30-4E62-B20C-AD540CA04FCC}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Stripe_v1.pptx = ..\..\Stripe_v1.pptx
+		..\Presentation\StripePayment.swf = ..\Presentation\StripePayment.swf
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
