@@ -19,7 +19,7 @@ namespace StripePayMVCCore.Controllers
 
         public IActionResult Charge(string stripeEmail, string stripeToken)
         {
-            StripeConfiguration.SetApiKey("sk_test_aJpRlSnGboF0waG5ROZRGbJM");
+            StripeConfiguration.SetApiKey("sk_test_o3OoNxSCqAUnk16mkx9Ma0x8");
             var customers = new StripeCustomerService();
             var charges = new StripeChargeService();
             var orders = new StripeOrderService();
@@ -75,7 +75,7 @@ namespace StripePayMVCCore.Controllers
 
             var charge = charges.Create(new StripeChargeCreateOptions
             {
-                Amount = 456,
+                Amount = 456*100,
                 Description = "Fashion Payment",
                 Currency = "usd",
                 CustomerId = customer.Id
